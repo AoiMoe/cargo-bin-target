@@ -11,6 +11,3 @@ name = "bin1"
 [[bin]]
 name = "bin2"
 path = "src/bin/bin2.rs"
-
-[[bin]]
-name = "bin3"
