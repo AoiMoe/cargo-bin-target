@@ -14,10 +14,10 @@ clean () {
 
 run () {
     cd $1
-    find target -type f -executable -o -name deps -prune -false | while read j
+    find target -type f -executable -o -name deps -prune -false | sort | while read j
     do
-        echo "  run $1/$j" >&2
-        echo -n "  "
+	name=`basename $j`
+        echo "  run $name" >&2
         ./$j
     done
     cd ..
