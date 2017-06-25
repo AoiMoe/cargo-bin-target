@@ -1,0 +1,16 @@
+[package]
+name = "bin-with-main-and-bin-main-with-lib"
+version = "0.1.0"
+authors = ["Takuya SHIOZAKI <tshiozak@bsdclub.org>"]
+
+[dependencies]
+
+[[bin]]
+name = "bin1"
+
+[[bin]]
+name = "bin2"
+path = "src/bin/bin2.rs"
+
+[[bin]]
+name = "bin3"

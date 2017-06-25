@@ -1,0 +1,6 @@
+[package]
+name = "no-bin"
+version = "0.1.0"
+authors = ["Takuya SHIOZAKI <tshiozak@bsdclub.org>"]
+
+[dependencies]
