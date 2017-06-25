@@ -1,3 +1,3 @@
 fn main() {
-    println!("  source: {}", file!());
+    println!("    source: {}", file!());
 }
